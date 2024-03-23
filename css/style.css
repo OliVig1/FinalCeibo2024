@@ -20,12 +20,14 @@
     gap: 20px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: x-small;
+    overflow: hidden;
 
 }
 
 .nav-bar li a{
     text-decoration: none;
+    display: block;
     font-size: 20px;
     color: black;
 }
@@ -33,9 +35,7 @@
 .seccion-princial{
     width: 100%;
     height: 800px;
-    background-image: url("../Assests/Manostelar3.jpg");
     background-size: cover;
-    
 }
 
 .seccion-princial div h1{
@@ -52,27 +52,41 @@
 
 .categorias{
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    width: 40px;
     justify-content: center;
     align-items: center;
     margin: 50px;
-    gap:20px
-
+    gap:50px
 }
+
 
 .categorias div button{
     display: flex;
-    color: black;
+    border: none;
+    padding: 14px 40px;
+    font-size: medium;
+    color: white;
+    background-color: black;
     text-decoration: none;
     text-align: center;
+    text-decoration: none;
     justify-content: center
 
 }
 
+.categorias div button:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    text-align: center;
+}
+
 .categorias div img{
-    width: 70%;
-    height: 70%;
-    object-fit: contain;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+
 }
 
 .seccion-secundaria{
@@ -93,8 +107,27 @@
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
+.FormComunidad h2{
+    text-align: center;
+}
 
-.formComunidad{
+.FormComunidad{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: wheat
+
+}
+
+.FormComunidad label{
+    text-align: center;
+    padding: 12px 20px;
+
+}
+.FormComunidad input{
+    padding: 12px 20px;
+    margin: 8px;
+    text-align: center;
     box-sizing: border-box;
 }
 
