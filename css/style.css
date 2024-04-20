@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header-index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  height: 100px; }
+  .header-index div H1 {
+    display: flex;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: auto; }
+  .header-index div nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: auto; }
+    .header-index div nav ul li a {
+      text-decoration: none;
+      display: flex;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+      font-weight: 100; }
+  .header-index div {
+    display: flex;
+    margin: auto; }
+    .header-index div svg {
+      margin-right: 20px; }
+
+.texto-principal div h2 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large; }
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  justify-content: center;
+  text-align: center; }
+  .galeria-grid div img {
+    height: auto;
+    width: 100%; }
+  .galeria-grid div button {
+    margin: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: small;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500; }
+    .galeria-grid div button:hover {
+      background-color: #fffdfd;
+      color: black; }
+
+.seccion-secundaria {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-image: url("../Assests/new arrivals-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center; }
+  .seccion-secundaria a {
+    text-decoration: none;
+    color: white;
+    background-color: #390000;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 100px 10px 100px;
+    margin-top: 400px;
+    text-align: center; }
+
+.galeria-sale {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  height: auto; }
+  .galeria-sale h2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.product-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  height: auto;
+  width: 100%;
+  gap: 50px;
+  padding: 10px; }
+  .product-container div {
+    flex: auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px; }
+    .product-container div div {
+      position: relative;
+      width: 300px;
+      height: 70%;
+      object-fit: contain; }
+      .product-container div div span {
+        position: absolute;
+        background: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        color: #060606;
+        right: 10px;
+        top: 10px; }
+      .product-container div div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .product-container div div button {
+        position: absolute;
+        bottom: 20px;
+        left: 15px;
+        right: 10px;
+        padding: 10px;
+        width: 90%;
+        border: none;
+        outline: none;
+        background: #fff;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0; }
+        .product-container div div button:hover {
+          opacity: 1;
+          background: #040404;
+          color: #fff; }
+
+.product-info div {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px; }
+  .product-info div h2 {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif; }
+  .product-info div p {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    margin: 5px 0; }
+  .product-info div span {
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through; }
+
+.form-comunidad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-content: center;
+  margin: 50px; }
+  .form-comunidad div {
+    width: 100%; }
+    .form-comunidad div img {
+      grid-column: 1;
+      object-fit: cover;
+      width: 50%; }
+  .form-comunidad div h1 {
+    text-align: center; }
+  .form-comunidad div form fieldset label {
+    text-align: center;
+    padding: 12px 20px; }
+  .form-comunidad div form fieldset imput {
+    padding: 12px 20px;
+    margin: 8px;
+    text-align: center;
+    box-sizing: border-box; }
+
+.titulo div h2 {
+  text-align: center;
+  margin: 50px; }
+
+.cardshop {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap; }
+  .cardshop div img {
+    width: 100%;
+    height: 300px; }
+  .cardshop div h4 {
+    margin: 15px;
+    font-weight: lighter; }
+  .cardshop div p {
+    margin: 15px;
+    color: gray; }
+  .cardshop div button {
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: small;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500; }
+
+.head {
+  margin-left: 510px; }
+
+.card {
+  margin: 20px; }
+
+.boton-blog {
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 10px 10px;
+  font-size: small;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 500; }
+
+.formcontacto {
+  width: 100%;
+  margin: 20px; }
+  .formcontacto form div label {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 10px;
+    font-size: small;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+    text-align: center; }
+  .formcontacto form div input {
+    text-align: center;
+    width: auto; }
+
+.botonescontacto input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 10px 10px;
+  font-size: small;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 500; }
+
+.mapa {
+  margin: 20px; }
+  .mapa h2 {
+    margin-bottom: 15px; }
+
+.nosotros div img {
+  width: 100%;
+  height: 200px; }
+
+.nosotros div p {
+  margin: 40px; }
+
+@media screen and (max-width: 576px) {
+  .header-index {
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    gap: 20px;
+    width: 100%; }
+  .nav-bar {
+    flex-direction: column;
+    align-items: center; }
+    .nav-bar li a {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.5rem;
+      font-weight: 100; }
+  .galeria-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px;
+    gap: 50px;
+    margin-bottom: 150px; }
+    .galeria-grid div {
+      margin: auto;
+      margin-bottom: 20px; }
+      .galeria-grid div button {
+        margin: auto;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 8px 20px; } }
+
+.form-comunidad {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr; }
