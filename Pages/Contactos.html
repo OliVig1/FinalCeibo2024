@@ -17,21 +17,37 @@
                 </nav>
             </div>
             <Section class="header-index">
-                <div class="logo">
+                <div>
                     <H1>CEIBO</H1>
                 </div>
                 <div>
-                    <nav>
-                        <ul class="nav-bar">
-                            <li><a href="../index.html">HOME</a></li>
-                            <li><a href="./Blog.html">BLOG</a></li>
-                            <li><a href="#">CONTACTO</a></li>
-                            <li><a href="./Nosotros.html">NOSOTROS</a></li>
-                            <li><a href="./Shop.html">SHOP</a></li>
+                    <nav>                   
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                MENU
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Home</a>
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                    <a class="dropdown-item" href="#">Shop</a>
+                                </div>
+                            </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="icons">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">HOME</a></li>
+                            <li><a href="Blog.html">BLOG</a></li>
+                            <li><a href=".#">CONTACTO</a></li>
+                            <li><a href="Nosotros.html">NOSOTROS</a></li>
+                            <li><a href="Shop.html">SHOP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                     </svg>
@@ -93,8 +109,8 @@
         
               <div class="col-md-5 offset-md-1 mb-3">
                 <form>
-                  <h5>Subscribe to our newsletter</h5>
-                  <p>Monthly digest of what's new and exciting from us.</p>
+                    <h5>Suscrbite a nuestro newsletter</h5>
+                    <p>Promociones y mucho mas!</p>
                   <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                     <label for="newsletter1" class="visually-hidden">Email address</label>
                     <input id="newsletter1" type="text" class="form-control" placeholder="Email address">

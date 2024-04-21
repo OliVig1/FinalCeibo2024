@@ -1,7 +1,9 @@
 .cardshop{ 
     display: flex;
-    justify-content: space-around;
-    flex-flow: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px;
     div{
         img{
             width: 100%;

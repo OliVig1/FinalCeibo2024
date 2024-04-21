@@ -36,6 +36,14 @@
     .header-index div svg {
       margin-right: 20px; }
 
+.nav-item {
+  position: relative;
+  display: none; }
+
+.dropdown-menu a:hover {
+  background: #9b9b9b;
+  color: #fff; }
+
 .texto-principal div h2 {
   text-align: center;
   justify-content: center;
@@ -91,18 +99,20 @@
     margin-top: 400px;
     text-align: center; }
 
+.titulosale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: large;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif; }
+
 .galeria-sale {
   position: relative;
   overflow: hidden;
   padding: 20px;
   height: auto; }
-  .galeria-sale h2 {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif; }
 
 .product-container {
   display: flex;
@@ -160,7 +170,7 @@
   padding-top: 10px; }
   .product-info div h2 {
     text-transform: uppercase;
-    font-size: large;
+    font-size: small;
     font-family: Arial, Helvetica, sans-serif; }
   .product-info div p {
     width: 100%;
@@ -206,8 +216,10 @@
 
 .cardshop {
   display: flex;
-  justify-content: space-around;
-  flex-flow: wrap; }
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 50px; }
   .cardshop div img {
     width: 100%;
     height: 300px; }
@@ -291,21 +303,51 @@
 .nosotros div p {
   margin: 40px; }
 
-@media screen and (max-width: 576px) {
+.py-5 {
+  margin: 20px; }
+  .py-5 div {
+    background-color: #f2f2e9;
+    padding: 20px; }
+    .py-5 div form {
+      height: 200px;
+      width: 100%; }
+      .py-5 div form p {
+        font-weight: lighter;
+        color: #390000; }
+      .py-5 div form div button {
+        justify-content: center;
+        padding: 10px 10px;
+        font-size: small;
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        font-weight: 500; }
+  .py-5 div ul li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; }
+
+@media screen and (max-width: 992px) {
   .header-index {
-    flex-direction: column;
-    justify-content: none;
-    align-items: center;
-    gap: 20px;
     width: 100%; }
-  .nav-bar {
-    flex-direction: column;
-    align-items: center; }
-    .nav-bar li a {
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 0.5rem;
-      font-weight: 100; }
+    .header-index div nav {
+      display: none; }
+    .header-index div svg {
+      height: 30px;
+      gap: 2px; }
+  .navbarnews {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-small;
+    font-weight: lighter; }
+  .nav-item {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none; }
   .galeria-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -321,7 +363,3 @@
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 8px 20px; } }
-
-.form-comunidad {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr; }
