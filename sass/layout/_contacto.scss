@@ -1,10 +1,27 @@
+
+.img{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+
+}
+.titulo{
+        h2{
+            margin: 40px;
+        }
+    }
+
 .formcontacto{
     width: 100%;
-    margin: 20px;
+    margin: 40px;
+    display: flex;
     form{
         div{
             label{
                 margin-bottom: 20px;
+                width: 100px;
                 justify-content: center;
                 align-content: center;
                 padding: 10px 10px;
@@ -18,9 +35,22 @@
             }
             input{
                 text-align: center;
-                width: auto;
+                width: 200px;
+                height: 40px;
+                align-items: center;
             }
         }
+    }
+}
+.textoboton{
+    align-items: center;
+    display: flex;
+    p{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    input{
+        margin-top: 10px;
     }
 }
 .botonescontacto{
@@ -40,7 +70,8 @@
     
 }
 .mapa{
-    margin: 20px;
+    width: 100%;
+    margin: 40px;
     h2{
         margin-bottom: 15px;
     }

@@ -44,14 +44,15 @@
 }
 .seccion-secundaria{
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
-    background-image: url("../Assests/new\ arrivals-3.jpg");
+    background-image: url("/Assests/SALE.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
     a{
         text-decoration: none;
         color: white;
@@ -59,13 +60,14 @@
         font-size: large;
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px 100px 10px 100px;
-        margin-top: 400px;
+        margin-top: 390px;
         text-align: center;
     }
 }
 
 .titulosale{
     display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
