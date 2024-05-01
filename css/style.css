@@ -85,7 +85,7 @@
   width: 100%;
   height: 500px;
   display: flex;
-  background-image: url("/Assests/SALE.jpg");
+  background-image: url("./Assests/SALE.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
