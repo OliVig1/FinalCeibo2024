@@ -25,17 +25,17 @@
             }
         }
     }
-    div{
-        ul{
+}
+
+.list-unstyled.d-flex{
             li{
                 a{
-                    display: flex;
                     justify-content: space-between;
                     gap: 20px;
                     text-decoration: none;
+                    
                 }                   
             }
         }
-    }
-}
+
 

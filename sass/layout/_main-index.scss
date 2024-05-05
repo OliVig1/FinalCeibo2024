@@ -24,7 +24,8 @@
             height: auto;
             width: 100%;
         }
-        button{
+        a{
+            button{
             margin: 50px;
             margin-bottom: 100px;
             align-items: center;
@@ -40,6 +41,7 @@
             &:hover{
                 background-color: #fffdfd;
                 color: black;
+            }
             }
         }
     }
