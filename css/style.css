@@ -52,7 +52,9 @@
   display: flex;
   padding: 80px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large; }
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 .galeria-grid {
   display: grid;
@@ -70,13 +72,13 @@
     align-items: center;
     justify-content: center;
     padding: 10px 30px;
-    font-size: small;
+    font-size: 20px;
+    font-weight: lighter;
     background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 2px;
-    cursor: pointer;
-    font-weight: 500; }
+    cursor: pointer; }
     .galeria-grid div button:hover {
       background-color: #fffdfd;
       color: black; }
@@ -85,18 +87,19 @@
   width: 100%;
   height: 500px;
   display: flex;
-  background-image: url("./Assests/SALE.jpg");
+  background-image: url("../Assests/SALE.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px; }
+  margin-bottom: 200px;
+  margin-top: 100px; }
   .seccion-secundaria a {
     text-decoration: none;
     color: white;
     background-color: #390000;
-    font-size: large;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 100px 10px 100px;
     margin-top: 390px;
@@ -168,51 +171,58 @@
           background: #040404;
           color: #fff; }
 
-.product-info div {
+.product-info {
   width: 100%;
   height: 100px;
   padding-top: 10px; }
-  .product-info div h2 {
+  .product-info h2 {
     text-transform: uppercase;
-    font-size: small;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif; }
-  .product-info div p {
+  .product-info p {
     width: 100%;
+    font-size: 15px;
     height: 20px;
-    line-height: 20px;
     overflow: hidden;
-    opacity: 0.5;
     margin: 5px 0; }
-  .product-info div span {
-    font-weight: 900;
-    font-size: 20px;
-    margin-left: 20px;
-    opacity: 0.5;
-    text-decoration: line-through; }
+  .product-info span {
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 20px; }
 
-.form-comunidad {
+.quienessomos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 600px;
   gap: 30px;
   justify-content: center;
   align-content: center;
-  margin: 50px; }
-  .form-comunidad div {
-    width: 100%; }
-    .form-comunidad div img {
-      grid-column: 1;
-      object-fit: cover;
-      width: 50%; }
-  .form-comunidad div h1 {
-    text-align: center; }
-  .form-comunidad div form fieldset label {
+  margin-top: 100px; }
+  .quienessomos div img {
+    grid-column: 1;
+    object-fit: contain;
+    width: 100%;
+    height: 100%; }
+  .quienessomos div p {
+    margin-top: 250px;
+    font-size: 25px;
+    justify-content: center;
     text-align: center;
-    padding: 12px 20px; }
-  .form-comunidad div form fieldset imput {
-    padding: 12px 20px;
-    margin: 8px;
-    text-align: center;
-    box-sizing: border-box; }
+    align-content: center; }
+  .quienessomos div button {
+    margin-left: 200px;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer; }
+    .quienessomos div button:hover {
+      background-color: #fffdfd;
+      color: black; }
 
 .titulo div h2 {
   text-align: center;

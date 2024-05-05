@@ -6,7 +6,9 @@
             display: flex;
             padding: 80px;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 45px; 
+            font-size: 40px; 
+            margin-top: 100px;
+            margin-bottom: 100px;
         }
     }
 }
@@ -28,13 +30,13 @@
             align-items: center;
             justify-content: center;
             padding: 10px 30px;
-            font-size: small;
+            font-size: 20px;
+            font-weight: lighter;
             background-color: #000000;
             color: #fff; 
             border: none;
             border-radius: 2px;
             cursor: pointer;
-            font-weight: 500;
             &:hover{
                 background-color: #fffdfd;
                 color: black;
@@ -46,18 +48,19 @@
     width: 100%;
     height: 500px;
     display: flex;
-    background-image: url("../Assests/SALE.jpg");
+    background-image: url('../Assests/SALE.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
     justify-content: center;    
-    margin-bottom: 50px;
+    margin-bottom: 200px;
+    margin-top: 100px;   
     a{
         text-decoration: none;
         color: white;
         background-color: rgb(57, 0, 0);
-        font-size: large;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px 100px 10px 100px;
         margin-top: 390px;
@@ -138,65 +141,69 @@
         }
 }
 .product-info{
-    div{
         width: 100%;
         height: 100px;
         padding-top: 10px;
         h2{
             text-transform: uppercase;
-            font-size: small;
+            font-size: 15px;
             font-family: Arial, Helvetica, sans-serif;
         }
         p{
             width: 100%;
+            font-size: 15px;
             height: 20px;
-            line-height: 20px;
             overflow: hidden;
-            opacity: 0.5;
             margin: 5px 0;
         }
         span{
-            font-weight: 900;
-            font-size: 20px;
+            font-weight: 400;
+            font-size: 22px;
             margin-left: 20px;
-            opacity: 0.5;
-            text-decoration: line-through;
         }
     }
-}
-.form-comunidad{
+
+.quienessomos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 600px;
     gap: 30px;
     justify-content: center;
     align-content: center;
-    margin: 50px;
+    margin-top: 100px;
     div{
-        width: 100%;
         img{
             grid-column: 1;
-            object-fit: cover;
-            width: 50%;
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
         }
     }
     div{
-        h1{
+        p{
+            margin-top: 250px;
+            font-size: 25px;
+            justify-content: center;
             text-align: center;
+            align-content: center;
         }
-        form{
-            fieldset{
-                label{
-                    text-align: center;
-                    padding: 12px 20px;
-                }
-                imput{
-                    padding: 12px 20px;
-                    margin: 8px;
-                    text-align: center;
-                    box-sizing: border-box;
-                }
-            }
+        button{
+            margin-left: 200px;
+            justify-content: center;
+            padding: 10px 30px;
+            font-size: 20px;
+            font-weight: lighter;
+            background-color: #000000;
+            color: #fff; 
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            &:hover{
+                background-color: #fffdfd;
+                color: black;
         }
+        
     }
     
+}
 }
