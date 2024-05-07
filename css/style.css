@@ -38,8 +38,7 @@
     .header-index div svg {
       margin-right: 20px; }
 
-.nav-item {
-  position: relative;
+.nav-item1 {
   display: none; }
 
 .dropdown-menu a:hover {
@@ -349,45 +348,43 @@
       .py-5 div form p {
         font-weight: lighter;
         color: #390000; }
-      .py-5 div form div button {
-        justify-content: center;
-        padding: 10px 10px;
-        font-size: small;
-        background-color: #000000;
-        color: #fff;
-        border: none;
-        border-radius: 2px;
-        cursor: pointer;
-        font-weight: 500; }
+      .py-5 div form div {
+        padding-left: 0px; }
+        .py-5 div form div button {
+          justify-content: center;
+          padding: 10px 10px;
+          font-size: small;
+          background-color: #000000;
+          color: #fff;
+          border: none;
+          border-radius: 2px;
+          cursor: pointer;
+          font-weight: 500; }
 
-.list-unstyled.d-flex li a {
-  justify-content: space-between;
-  gap: 20px;
-  text-decoration: none; }
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
+  .container-fluid p {
+    font-size: small; }
   .header-index {
     width: 100%; }
+    .header-index div a {
+      font-size: medium; }
     .header-index div nav {
       display: none; }
     .header-index div svg {
       height: 30px;
       gap: 2px; }
-  .navbarnews {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-size: xx-small;
+  .container-fluid p {
+    font-size: px;
     font-weight: lighter; }
-  .nav-item {
+  .nav-item1 {
     display: flex;
-    font-size: 20px;
-    text-decoration: none; }
+    font-size: 20px; }
   .texto-principal div h2 {
-    font-size: 25px; }
+    font-size: 22px;
+    margin: 10px; }
   .galeria-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 300px;
     grid-template-rows: 400px 400px 400px;
     gap: 100px;
     margin-bottom: 150px; }
@@ -407,11 +404,68 @@
       margin-bottom: 100px; }
   .quienessomos {
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 300px;
     grid-template-rows: 400px 200px;
     gap: 10px;
     justify-content: center; }
     .quienessomos div p {
       margin-top: 10px; }
     .quienessomos div button {
-      margin-left: 120px; } }
+      margin-left: 65px; } }
+
+.cierre {
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .container-fluid p {
+    font-size: medium; }
+  .header-index {
+    width: 100%; }
+    .header-index div a {
+      font-size: large; }
+    .header-index div nav {
+      display: none; }
+    .header-index div svg {
+      height: 30px;
+      gap: 2px; }
+  .container-fluid p {
+    font-size: px;
+    font-weight: lighter; }
+  .nav-item1 {
+    display: flex;
+    font-size: 20px; }
+  .texto-principal div h2 {
+    font-size: 22px;
+    margin: 10px; }
+  .galeria-grid {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 400px 400px 400px;
+    gap: 100px;
+    margin-bottom: 150px; }
+    .galeria-grid div {
+      margin: auto;
+      margin-bottom: 20px; }
+      .galeria-grid div a button {
+        margin: auto;
+        position: relative;
+        margin-top: 20px;
+        padding: 8px 20px; }
+  .seccion-secundaria {
+    width: 100%;
+    height: 400px; }
+    .seccion-secundaria a {
+      padding: 10px 50px 10px 50px;
+      margin-bottom: 100px; }
+  .quienessomos {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 400px 200px;
+    gap: 10px;
+    justify-content: center; }
+    .quienessomos div p {
+      margin-top: 10px; }
+    .quienessomos div button {
+      margin-left: 160px; }
+  .cierre {
+    width: 100%; } }

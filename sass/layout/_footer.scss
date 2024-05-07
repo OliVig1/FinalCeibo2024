@@ -11,6 +11,7 @@
                     color: rgb(57, 0, 0);
             }
             div{
+                padding-left: 0px;
                 button{
                     justify-content: center;
                     padding: 10px 10px;
@@ -27,15 +28,7 @@
     }
 }
 
-.list-unstyled.d-flex{
-            li{
-                a{
-                    justify-content: space-between;
-                    gap: 20px;
-                    text-decoration: none;
-                    
-                }                   
-            }
-        }
+
+
 
 

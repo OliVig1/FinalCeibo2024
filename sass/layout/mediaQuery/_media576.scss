@@ -1,6 +1,17 @@
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
+
+.container-fluid{
+    p{
+    font-size: small;
+    }
+}
 .header-index{
     width: 100%;
+    div{
+        a{
+            font-size: medium;
+        }
+    }
     div{
         nav{
             display: none;
@@ -14,30 +25,30 @@
     }
 }
 
-.navbarnews{
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-size: xx-small;
-    font-weight: lighter;
+.container-fluid{
+    p{
+        font-size: px;
+        font-weight: lighter;
+    } 
 }
-.nav-item{
+
+.nav-item1{
     display: flex;
     font-size: 20px;
-    text-decoration: none;
 }
 
 .texto-principal{
     div{
         h2{
-            font-size: 25px;
+            font-size: 22px;
+            margin: 10px;
         }
     }
 }
 
 .galeria-grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 300px;
         grid-template-rows: 400px 400px 400px;
         gap: 100px;
         margin-bottom: 150px;
@@ -66,7 +77,7 @@
 
 .quienessomos{
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 300px;
     grid-template-rows: 400px 200px;
     gap: 10px;
     justify-content: center;
@@ -75,8 +86,15 @@
                 margin-top: 10px;
             }
             button{
-            margin-left: 120px;
+            margin-left: 65px;
         }   
         }
 }
 }
+
+.cierre{
+    width: 100%;
+}
+
+
+
