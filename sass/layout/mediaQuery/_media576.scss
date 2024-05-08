@@ -27,7 +27,7 @@
 
 .container-fluid{
     p{
-        font-size: px;
+        font-size: 8px;
         font-weight: lighter;
     } 
 }
@@ -77,23 +77,31 @@
 
 .quienessomos{
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 400px 200px;
-    gap: 10px;
+    align-items: center;
     justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
         div{
+            img{
+                width: 100%;
+                height: 100%;
+            }
             p{
-                margin-top: 10px;
+                margin-top: 5px;
+                font-size: 20px;
+                margin-left: 50px;
             }
             button{
-            margin-left: 65px;
+            font-size: medium;
+            margin-left: 85px;
         }   
-        }
 }
 }
 
 .cierre{
     width: 100%;
+}
 }
 
 
