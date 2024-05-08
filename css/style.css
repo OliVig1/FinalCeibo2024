@@ -227,6 +227,11 @@
   text-align: center;
   margin: 50px; }
 
+.cardshop div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
 .cardshop {
   display: flex;
   justify-content: space-between;
@@ -259,6 +264,10 @@
 
 .card {
   margin: 20px; }
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
 
 .boton-blog {
   margin-bottom: 20px;
@@ -277,12 +286,17 @@
   height: auto; }
 
 .titulo h2 {
-  margin: 40px; }
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 40px; }
 
 .formcontacto {
   width: 100%;
-  margin: 40px;
-  display: flex; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px; }
   .formcontacto form div label {
     margin-bottom: 20px;
     width: 100px;
@@ -298,7 +312,7 @@
     text-align: center; }
   .formcontacto form div input {
     text-align: center;
-    width: 200px;
+    width: 60%;
     height: 40px;
     align-items: center; }
 
@@ -307,22 +321,27 @@
   display: flex; }
   .textoboton p {
     justify-content: center;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-size: 10px; }
   .textoboton input {
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: 20%;
+    height: 30px; }
 
-.botonescontacto input {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  justify-content: center;
-  padding: 10px 10px;
-  font-size: small;
-  background-color: #000000;
-  color: #fff;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-  font-weight: 500; }
+.botonescontacto {
+  margin-left: 80px; }
+  .botonescontacto input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: small;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500; }
 
 .mapa {
   width: 100%;
@@ -330,12 +349,21 @@
   .mapa h2 {
     margin-bottom: 15px; }
 
-.nosotros div img {
-  width: 50%;
-  height: auto; }
+.bienvenidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px; }
 
-.nosotros div p {
-  margin: 40px; }
+.nosotrosceibo {
+  display: flex;
+  align-content: center;
+  margin-top: 40px; }
+  .nosotrosceibo div p {
+    width: 75%;
+    flex-wrap: wrap;
+    font-size: large; }
 
 .py-5 {
   margin: 20px; }
@@ -421,6 +449,21 @@
       margin-left: 85px; }
   .cierre {
     width: 100%; } }
+
+.mapa {
+  display: none;
+  margin: 40px; }
+  .mapa h2 {
+    margin-bottom: 15px; }
+
+.nosotrosceibo div img {
+  width: 50%;
+  margin-left: 99px; }
+
+.nosotrosceibo div p {
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: small; }
 
 @media (min-width: 576px) and (max-width: 1024px) {
   .container-fluid p {

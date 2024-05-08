@@ -9,14 +9,19 @@
 }
 .titulo{
         h2{
-            margin: 40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-top: 40px;
         }
     }
 
 .formcontacto{
     width: 100%;
-    margin: 40px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
     form{
         div{
             label{
@@ -35,25 +40,30 @@
             }
             input{
                 text-align: center;
-                width: 200px;
+                width: 60%;
                 height: 40px;
                 align-items: center;
             }
         }
     }
 }
+
 .textoboton{
     align-items: center;
     display: flex;
     p{
         justify-content: center;
         margin-top: 10px;
+        font-size: 10px;
     }
     input{
         margin-top: 10px;
+        width: 20%;
+        height: 30px;
     }
 }
 .botonescontacto{
+    margin-left: 80px;
     input{
         margin-top: 20px;
         margin-bottom: 20px;

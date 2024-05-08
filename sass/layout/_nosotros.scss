@@ -1,12 +1,22 @@
-.nosotros{
-    div{
-        img{
-            width: 50%;
-            height: auto;
-            
+
+.bienvenidos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.nosotrosceibo{
+    display: flex;
+    align-content: center;
+    margin-top: 40px;
+        div{
+            p{
+                width: 75%;
+                flex-wrap: wrap;
+                font-size: large;
+            }
         }
-        p{
-            margin: 40px;
-        }
-    }
 }
